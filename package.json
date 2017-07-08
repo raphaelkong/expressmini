@@ -1,0 +1,31 @@
+{
+  "name": "expressmini",
+  "version": "1.0.0",
+  "description": "minimal code for express",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/raphaelkong/expressmini.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "socketio"
+  ],
+  "author": "RK",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raphaelkong/expressmini/issues"
+  },
+  "homepage": "https://github.com/raphaelkong/expressmini#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "jade": "^1.11.0",
+    "morgan": "^1.8.2",
+    "nodemon": "^1.11.0",
+    "socket.io": "^2.0.3"
+  }
+}

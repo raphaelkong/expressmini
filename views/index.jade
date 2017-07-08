@@ -1,0 +1,9 @@
+extends layout
+block content
+    section#welcome
+        div Welcome to presence server !
+        a#presence(type='button', class='btn', href='/presence') Connect 
+block append head
+    script(type='text/javascript', src='/socket.io/socket.io.js')
+    script(type='text/javascript', src='js/client.js')
+    
